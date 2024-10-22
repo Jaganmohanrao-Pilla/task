@@ -1,0 +1,5 @@
+id         name            phno
+
+1  jaganmohanrao pilla  7893409439
+2  Mohan  6893409439
+12  Mohan  6893409439

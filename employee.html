@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Employee</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: beige;
+        }
+        form {
+            width: 300px;
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            margin-top: 20px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+        }
+        input[type="radio"] {
+            margin: 10px 0;
+        }
+        input[type="submit"] {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+
+</head>
+<body>
+    <form action="employee.php" method="post">
+        <label for="employee_id">Employee ID:</label>
+        <input type="text" name="employee_id" id="employee_id" required><br><br>
+        <label for="employee_name">Employee Name:</label>
+        <input type="text" name="employee_name" id="employee_name" required><br><br>
+        <label for="job_band">Job Band:</label><br>
+        <input type="radio" name="job_band" id="job_band" value ="A" required>A<br>
+        <input type="radio" name="job_band" id="job_band" value ="B" required>B<br>
+        <input type="radio" name="job_band" id="job_band" value ="C" required>C<br>
+        <input type="radio" name="job_band" id="job_band" value ="D" required>D<br><br>
+        <input type="submit" name="submit" value="Submit">
+    
+</body>
+</html>

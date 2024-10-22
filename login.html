@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:beige
+        }
+        form {
+            width: 300px;
+            margin: 0 auto;
+        }
+        label {
+            margin-top: 20px;
+        }
+        input[type="text"], input[type="password"] {
+            width: 65%;
+            padding: 10px;
+            margin: 10px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        
+        }
+        input[type="submit"] {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: blue;
+        }
+        input[type="reset"]:hover {
+            background-color:blue;
+        }
+        input[type="reset"] {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        h4{
+            text-align: center;
+            text-decoration: underline;
+            color: blue;
+
+        }
+        .register-link {
+    color: #ff0000; 
+    text-decoration: none;
+}
+    </style>
+</head>
+<body>
+    <h4>Employee Login Page</h4>
+    <form action="login.php" method="post">
+        <label for="email">Enter your UserName</label><br>
+        <input type="text" name="email" id="email" required>@infosys.com<br>
+        <label for="password">Enter your PassWord:</label><br>
+        <input type="password" name="password" id="password" required><br>
+        <input type="submit" name="submit" value="Login">&nbsp;&nbsp;
+        <input type="reset" name="reset" value="Reset"><br><br>
+        <label for="register">New User? Register Here</label>
+        <a href="registration.html" class="register-link">Register</a>
+    </form>
+    
+</body>
+</html>

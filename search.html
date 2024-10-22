@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Search Employees</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:beige
+        }
+        form {
+            width: 300px;
+            margin: 0 auto;
+        }
+        label {
+            margin-top: 20px;
+        }
+        input[type="text"], input[type="password"] {
+            width: 65%;
+            padding: 10px;
+            margin: 10px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        
+        }
+        input[type="submit"] {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        h4{
+            text-align: center;
+            text-decoration: underline;
+            color: blue;
+
+        }
+    </style>
+</head>
+<body>
+    <h4>Search Page</h4>
+    <form action="search.php" method="post">
+        <label for="email">Enter Email ID:</label><br>
+        <input type="text" name="email" id="email" required>@infosys.com<br><br>
+        <input type="submit" name="submit" value="Search">
+    </form>
+    
+</body>
+</html>

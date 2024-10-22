@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registartion Page</title>
+    <style>
+        form{
+            width: 40%;
+            margin: auto;
+            border: 2px solid black;
+            padding: 10px;
+            background-color:lightgreen;
+            justify-content: center;
+            align-items: center;
+        }
+        input{
+            margin: 5px;
+            padding: 5px;
+            background-color:lightgoldenrodyellow;
+        }
+        select{
+            margin: 5px;
+            padding: 5px;
+            background-color: lightgoldenrodyellow;
+        }
+        label{
+            margin: 5px;
+            padding: 5px;
+            color: #333;
+        }
+        h1{
+            text-align: center;
+            color: blue;
+        }
+        input[type="submit"] {
+            background-color: red;
+            color: white;
+           
+        }
+        input[type="reset"]:hover {
+            cursor: pointer;
+            margin-left: auto;
+            background-color: green;
+        }
+        input[type="reset"] {
+            background-color: red;
+            color: white;
+           
+        }
+        input[type="submit"]:hover {
+            cursor: pointer;
+            margin-left: auto;
+            background-color: green;
+        }
+        body{
+            background-color: beige;
+        }
+    </style>
+  
+</head>
+<body>
+    <h1> Employee Registration Page</h1>
+    <form action="registration.php" method="post">
+        <label for="fname">FirstName:</label>
+        <input type="text" name="fname" id="fname" required><br><br>
+        <label for="lname">LastName:</label>
+        <input type="text" name="lname" id="lname" required><br><br>
+        <label for="email">Choose your username: </label><br>
+        <input type="text" name="email" id="email" required>@infosys.com<br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required><br><br>
+        <label for="cpassword">Confirm Password:</label>
+        <input type="password" name="cpassword" id="cpassword" required><br><br>
+        <label for="phno">Mobile:</label>
+        91<input type="text" name="phno" id="phno" required><br><br>
+        <label for="age">Age:</label>&nbsp;&nbsp;&nbsp;
+        <input type="text" name="age" id="age" required><br><br>
+        <label for="gender">Gender :</label>
+        <select name="gender" id="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br><br>
+        <label for="location">Location: </label>
+        <select name="location" id="location" required>  
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Mysore">Mysore</option>
+            <option value="Bangalore">Bangalore</option>
+        </select><br><br>
+        <input type="checkbox" name="terms" id="terms" value="checked" required>I Agree Terms and Conditions<br><br>
+        <input type="submit" value="Register Me" name="submit">&nbsp;&nbsp;&nbsp;
+        <input type="reset" value="Reset" name="reset"><br><br>
+
+             
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>

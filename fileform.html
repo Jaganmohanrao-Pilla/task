@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: beige;
+        }
+        form {
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+        }
+        label, input {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <title>Employee File Form</title>
+</head>
+<body>
+    <form action="fileeg.php" method="post">
+        <label for="id">ID:</label>
+        <input type="text" name="id" id="id" required pattern="\d{1,4}"><br>
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name" required pattern="[a-zA-Z\s]{2,50}"><br>
+        <label for="phno">PhoneNumber: </label>
+        <input type="text" name="phno" id="phno" required pattern="[6-9]\d{9}"><br>
+        <input type="submit" value="Submit" name="submit">
+    </form>
+    
+</body>
+</html>

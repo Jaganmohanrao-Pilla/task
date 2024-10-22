@@ -1,0 +1,7 @@
+Jagan:Mohan:JaganPilla@infosys.com:Pjmr@123:7893409439:24:male:Hyderabad
+Jagan:Pilla:jaganmohan@infosys.com:Pjmr@123:6893409439:24:male:Hyderabad
+Manoj:Kumar:ManojKumar@infosys.com:Pjmr@123:7893409439:24:male:Mysore
+Manoj:Kumar:Manojsharma@infosys.com:Pjmr@123:7893409439:24:male:Mysore
+Manoj:Sharma:PillaJagan@infosys.com:Pjmr@123:7893409439:24:male:Hyderabad
+Jagan:Mohan:JagMohPilla@infosys.com:Pjmr@12345:6893409439:12:male:Hyderabad
+Jagan:Pilla:JaganUser@infosys.com:Pjmr@12345:7893409439:24:male:Hyderabad

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cricket</title><!DOCTYPE html>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: beige;
+        }
+        form {
+            width: 300px;
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            margin-top: 20px;
+        }
+        input[type="radio"] {
+            margin: 10px 0;
+        }
+        input[type="submit"] {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <form action="cricket.php" method="post">
+        <label for="country"> select Country to get country Cricket players:</label><br>
+        <input type="radio" id="India" name="country" value="India">: India<br>
+        <input type="radio" id="Australia" name="country" value="Australia">: Australia<br>
+        <input type="radio" id="England" name="country" value="England">: England<br>
+        <input type="submit" value="Get Details" name="submit">
+</body>
+</html>
